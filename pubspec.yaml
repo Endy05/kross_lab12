@@ -1,0 +1,33 @@
+name: lab0809
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^1.0.0
+
+  dio: ^5.0.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Додаємо зображення до проєкту:
+  assets:
+    - images/cat_image-one.jpg
+    - images/japan_image-three.jpg
+    - images/list_image-two.avif
